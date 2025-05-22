@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="../css/write.css" />
+    <meta charset="UTF-8" />
+    <title>Write</title>
+  </head>
+  <body>
+    <div class="Container">
+      <div class="Box">
+        <img
+          src="../images/back.svg"
+          class="BackBtn"
+          id="Back"
+          onClick="window.location.href='main.html'"
+        />
+        <div class="Content">
+          <div class="Title">
+            <input id="tInput" type="text" placeholder="제목을 입력하세요" />
+          </div>
+          <div class="ContentBox">
+            <div class="Date"></div>
+            <textarea id="cInput"> </textarea>
+          </div>
+          <div class="SendBtn" id="write">작성하기</div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/write.js"></script>
+  </body>
+</html>
